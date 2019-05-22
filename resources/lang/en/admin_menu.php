@@ -6,6 +6,7 @@ return [
     'news' => 'News Promitions',
     'news_list' => 'News list',
     'news_create' => 'Create news',
+    'tag' => 'Tags',
 
     'menu' => 'Menu',
     'menu_item' => 'Menu Item',

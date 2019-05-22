@@ -17,6 +17,7 @@ return [
         'is_top' => 'Top news',
         'video' => 'Video URL',
         'contact' => 'Contact',
+        'tag' => 'Tags',
     ],
     'table' => [
         'id' => '#',

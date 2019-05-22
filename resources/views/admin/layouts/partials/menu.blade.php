@@ -38,6 +38,7 @@
                         <span>{!! trans("admin_menu.dashboard") !!}</span>
                     </a>
                 </li>
+                <!-- block pages -->
                 @if(in_array('admin.page.index', $composer_auth_permissions))
                     <li class="{!! currentPageMenu(["*admin/pages*", '*admin/themes*']) !!}">
                         <a href="javascript:void(0);" class="menu-toggle">
@@ -65,7 +66,7 @@
                         </ul>
                     </li>
                 @endif
-
+                <!-- block news -->
                 @if(in_array('admin.news.index', $composer_auth_permissions))
                     <li class="{!! currentPageMenu(["*admin/news*"]) !!}">
                         <a href="javascript:void(0);" class="menu-toggle">
@@ -86,6 +87,11 @@
                              <li class="{!! currentPageMenu(["*admin/news-categories*"]) !!}">
                                 <a href="{!! route("admin.news_category.index") !!}">
                                     <span>{!! trans("admin_menu.categories") !!}</span>
+                                </a>
+                            </li>
+                            <li class="{!! currentPageMenu(["*admin/tag-news*"]) !!}">
+                                <a href="{!! route("admin.news_tag.index") !!}">
+                                    <span>{!! trans("admin_menu.tag") !!}</span>
                                 </a>
                             </li>
                         </ul>

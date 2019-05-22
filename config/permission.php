@@ -56,6 +56,15 @@ return [
             'admin.news.category.destroy' => 'Xóa'
         ]
     ],
+    'news_tag' => [
+        'model' => 'Quản lý tags',
+        'permissions' => [
+            'admin.news_tag.index' => 'Truy cập',
+            'admin.news_tag.create'=> 'Tạo',
+            'admin.news_tag.edit' => 'Sứa',
+            'admin.news_tag.destroy' => 'Xóa'
+        ]
+    ],
 
     'news' => [
         'model' => 'Tin tức',

@@ -9,27 +9,6 @@
             @endcomponent
         </div>
     </div>
-    <div class="col-md-4">
-        <div class="font-bold col-green">{!! trans("admin_news.form.image") !!}</div>
-        <div class="form-group">
-            @component('admin.layouts.components.upload_photo', [
-                'image' => $news->image ?? null,
-                'name' => 'image',
-            ])
-            @endcomponent
-        </div>
-    </div>
-
-      <div class="col-md-4">
-        <div class="font-bold col-green">{!! trans("admin_news.form.banner") !!}</div>
-        <div class="form-group">
-            @component('admin.layouts.components.upload_photo', [
-                'image' => $news->banner ?? null,
-                'name' => 'banner',
-            ])
-            @endcomponent
-        </div>
-    </div>
 </div>
 
 <div class="row">
@@ -57,6 +36,16 @@
                 <div id="publish_at-container" style="position: relative"></div>
             </div>
         </div>
+    </div>
+
+    <div class="col-md-12">
+        <div class="font-bold col-green">{!! trans("admin_news.form.tag") !!}</div>
+        <div class="form-group" style="border: 1px solid #f4f4f4;padding:5px;margin: 2px">
+            <input type="checkbox" id="active" name="active"
+                   value="1" {!! !empty($news) && $news->active ? "checked" : null !!}>
+            <label for="active">{!! trans("admin_news.form.tag") !!}</label>
+        </div>
+
     </div>
 </div>
 

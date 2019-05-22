@@ -22,6 +22,8 @@ Route::group(
 
                 resourceAdmin('news-categories', 'NewsCategoryController', 'news_category', 'news.category');
 
+                resourceAdmin('tag-news','NewsTagsController','news_tag', 'news.tag');
+
                 resourceAdmin('news', 'NewsController', 'news');
 
                 resourceAdmin('achievements', 'AchievementsController', 'achievements');
