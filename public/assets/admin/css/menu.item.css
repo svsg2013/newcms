@@ -1,0 +1,65 @@
+#menu-item .sortable-placeholder {
+    padding: 15px;
+}
+
+#menu-item .sortable-menu-item li {
+    margin: 5px 0;
+    cursor: move;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#menu-item .sortable-menu-item li>ul>li {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#menu-item .sortable-menu-item li>ul>li>ul>li {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#menu-item .sortable-menu-item li .btn-edit-category {
+    position: absolute;
+    top: 5px;
+    right: 70px;
+    display: none;
+}
+
+#menu-item .sortable-menu-item li .btn-delete {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: none;
+}
+
+#menu-item .sortable-menu-item li .c-name {
+    padding: 3px 0;
+}
+
+#menu-item .sortable-menu-item li .c-name:hover .btn-edit-category {
+    display: inline-block;
+}
+
+#menu-item .sortable-menu-item li .c-name:hover .btn-delete {
+    display: inline-block;
+}
+
+.btn:not(.btn-link):not(.btn-circle) i {
+    font-size: 14px;
+}
+
+.c-name .btn {
+    float: right;
+}
+
+.btn-delete-record {
+    margin-right: 5px;
+}
+
+.d-name {
+    padding: 0 0 10px 0;
+}

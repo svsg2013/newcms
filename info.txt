@@ -1,0 +1,11 @@
+[Easycredit-Host]
+Domain: easycredit.3forcom.info
+
+ssh easycredit_3forcom_net@128.199.71.195 -p 4412
+
+ftp: ftp 128.199.71.195
+user/pass: easycredit_3forcom_net / CPnwS25W
+databases: easycredit_3forcom_net
+user/pass: easycredit_3forcom_net / 5gDic6Pe
+
+phpMyAdmin: http://ney.3forcom.biz/pma

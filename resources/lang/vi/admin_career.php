@@ -1,0 +1,77 @@
+<?php
+return [
+    'title' => 'Careers',
+    'list' => 'List',
+    'apply' => 'Applications',
+    'create_career' => 'Create career',
+    'edit_career' => 'Edit career',
+
+    'career' => 'career',
+
+    'form' => [
+        'employer' => 'Employer',
+        'form' => 'Form',
+        'category' => 'Deparment',
+        'expired_date' => 'Expired date',
+        'published_date' => 'Published date',
+        'status' => 'Status',
+        'level' => 'Level',
+        'location' => 'Location',
+        'is_top' => 'Hot career',
+        'content' => 'Content',
+        'name' => 'Name',
+        'accept_aplly' => 'Accept Apply',
+        'quantity' => 'Quantity',
+        'salary'=>'Salary',
+        'working_form'=>'Working form',
+        'description' => 'Description',
+        'request' => 'Request',
+        'benefit' => 'Benefit',
+        'position'=>'Position',
+        'department' => 'Department',
+        'experience' => 'Experience',
+        'working_time' => 'Thời gian làm việc',
+        'is_manager' => 'Is Manager'
+    ],
+
+    'table' => [
+        'id' => '#',
+        'name' => 'Name',
+        'expired_date' => 'Expired date',
+        'status' => 'Status',
+        'num_of_application' => 'Num of application',
+        'action' => 'Actions',
+        'position' => 'Position',
+        'phone' => 'Phone',
+        'attach_file' => 'Attach file',
+        'created_at' => 'Created at',
+        'content' => 'Content',
+        'email' => 'Email',
+        'birthday' => 'Birthday',
+        'gender' => 'Gender',
+        'cccd' => 'Identity Card',
+        'address' => 'Address',
+        'reference' => 'Reference',
+        'image' => 'Image',
+        'latest_work' => 'Latest work',
+        'latest_position' => 'Latest position',
+        'is_top' => 'Top',
+        'employer' => 'Employer',
+        'career' => 'Job name',
+        'quantity' => 'Quantity',
+        'salary'=>'Salary',
+        'working_form'=>'Working form',
+        'published_date' => 'Published Date'
+    ],
+
+    'attr' => [
+        'DRAFT' => 'Draft',
+        'PUBLISH' => 'Publish',
+        'CLOSED' => 'Closed',
+        'EXPIRED' => 'Expired',
+        'LHC' => 'LHC',
+        'INVESTORS' => 'INVESTORS',
+        'PARTTIME' => 'Xoay ca',
+        'FULLTIME' => 'Giờ hành chính'
+    ]
+];

@@ -1,0 +1,8 @@
+{{#location}}
+<div class="infowindow">
+  <h3 class="infowindow__head">{{name}}</h3>
+  <p>Địa chỉ: {{address}} {{#if city}}{{/if}} {{state}} {{postal}}</p>{{#if phone}}
+  <p>Điện thoại: {{phone}}</p>{{/if}}
+  {{#if fax}}
+  <p>Fax: {{fax}}</p>{{/if}}
+</div>{{/location}}

@@ -1,0 +1,10 @@
+{{#location}}
+<li data-markerid="{{markerid}}">
+  <div class="list-details">
+    <div class="loc-name">{{name}}</div>
+    <div class="loc-item">Địa chỉ: {{address}} {{#if city}}{{/if}} {{state}} {{postal}}</div>{{#if phone}}
+    <div class="loc-item">Điện thoại: {{phone}}</div>{{/if}}
+    {{#if fax}}
+    <div class="loc-item">Fax: {{fax}}</div>{{/if}}
+  </div>
+</li>{{/location}}

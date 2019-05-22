@@ -1,0 +1,78 @@
+.new-modal .modal-body {
+    padding-top: 65px;
+    padding-bottom: 38px;
+    text-align: center;
+    padding: 30px;
+    font-size: 1rem;
+}
+.new-modal .modal-body .modal-title {
+    font-size: 1.625rem;
+    margin-bottom: .76923077em;
+    letter-spacing: 0;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #19329c;
+    font-weight: 700;
+}
+.new-modal .modal-body .btn {
+    line-height: 1.7;
+    letter-spacing: .055em;
+    min-width: 260px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: auto;
+}
+.new-modal .modal-body .btn.btn-sm i, .new-modal .modal-body .btn-group-sm > .btn i {
+    position: absolute;
+    top: -1px;
+    left: 0;
+}
+.new-modal .modal-body .btn.btn-sm i svg, .new-modal .modal-body .btn-group-sm > .btn i svg {
+    height: 1.5714285714em;
+    width: 1.5714285714em;  
+}
+.btn-shadowjs:after, .btn-shadowjs:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50px;
+    z-index: 0;
+}
+.btn-danger.btn-shadow.btn-shadowjs:before {
+    box-shadow: 0 0.8125rem 1.875rem rgba(255, 200, 0, .4);
+}
+.new-modal .modal-body .btn-group-sm>.btn .text, .new-modal .modal-body .btn.btn-sm .text {
+    padding-left: 2.28571429em;
+    position: relative;
+}
+.btn-shadowjs .text {
+    z-index: 2;
+}
+.new-modal .modal-footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 1.4375em 0 1.5em;
+    border-top: 4px solid #19329c;
+    position: relative;
+    font-size: .9375rem;
+}
+.new-modal .modal-footer:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -4px;
+    right: 0;
+    height: 4px;
+    width: 34.45945946%;
+    background-color: #ff1919;
+    background-image: linear-gradient(to right, #ff7900 0, #ff1919 80%);
+    background-repeat: repeat-x;
+}

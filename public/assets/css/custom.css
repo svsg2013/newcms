@@ -1,0 +1,8 @@
+.cookie-alert {
+    background-image: linear-gradient(to right,#1f3fb5 0%,#2273e0 100%);
+    color: #fff;
+}
+.cookie-alert a {
+    color: #fff;
+    text-decoration: underline;
+}
