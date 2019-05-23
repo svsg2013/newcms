@@ -59,10 +59,10 @@ return [
     'news_tag' => [
         'model' => 'Quản lý tags',
         'permissions' => [
-            'admin.news_tag.index' => 'Truy cập',
-            'admin.news_tag.create'=> 'Tạo',
-            'admin.news_tag.edit' => 'Sứa',
-            'admin.news_tag.destroy' => 'Xóa'
+            'admin.news.tag.index' => 'Truy cập',
+            'admin.news.tag.create'=> 'Tạo',
+            'admin.news.tag.edit' => 'Sứa',
+            'admin.news.tag.destroy' => 'Xóa'
         ]
     ],
 

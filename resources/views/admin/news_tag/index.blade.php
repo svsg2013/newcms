@@ -52,5 +52,5 @@
     <script src="/assets/plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.js" type="text/javascript"></script>
 
 
-    <script type="text/javascript" src="/assets/admin/js/pages/news_category.index.js?v=1.0"></script>
+    <script type="text/javascript" src="/assets/admin/js/pages/news_tag.index.js?v=1.0"></script>
 @endsection
