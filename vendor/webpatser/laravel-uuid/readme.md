@@ -6,23 +6,30 @@
 [![Latest Stable Version](https://poser.pugx.org/webpatser/laravel-uuid/v/stable.svg)](https://packagist.org/packages/webpatser/laravel-uuid)
 [![Licence](https://poser.pugx.org/webpatser/laravel-uuid/license.svg)](https://packagist.org/packages/webpatser/laravel-uuid)
 
-Laravel package to generate a UUID according to the RFC 4122 standard. Support for version 1, 3, 4 and 5 UUIDs are built-in.
+Laravel package to generate and to validate a universally unique identifier (UUID) according to the RFC 4122 standard. Support for version 1, 3, 4 and 5 UUIDs are built-in.
 
 ## What's new in 3.*
 Laravel-uuid is now refactored for Laravel 5.5. It has the same requirements so that means PHP 7. Laravel package auto-discovery is enabled, and you can now use the UUID validation. Validation examples are below and in the tests. 
 
-Laravel 5.0, 5.1, 5.2, 5.3 and 5.4? use the [version 2 branch](https://github.com/webpatser/laravel-uuid/tree/2.1.1)
+Laravel 5.0, 5.1, 5.2, 5.3 and 5.4? use  [version 2](https://github.com/webpatser/laravel-uuid/tree/2.1.1)
 
-Laravel 4.*? use the [version 1 branch](https://github.com/webpatser/laravel-uuid/tree/1.5)
+Laravel 4.*? use [version 1](https://github.com/webpatser/laravel-uuid/tree/1.5)
 
 ## Installation
-
 
 In Laravel 5.5 laravel-uuid will install via the new package discovery feature so you only need to add the package to your composer.json file
 
 ```shell
 composer require "webpatser/laravel-uuid:^3.0"
 ```
+
+after installation you should see
+
+```shell
+Discovered Package: webpatser/laravel-uuid
+```
+
+and you are ready to go
 
 ## Basic Usage
 
@@ -32,9 +39,9 @@ To quickly generate a UUID just do
 Uuid::generate()
 ```
 	
-This will generate a version 1 Uuid `object` with a random ganerated MAC address.
+This will generate a version 1 Uuid `object` with a random generated MAC address.
 
-To echo out the generated Uuid cast it to a string
+To echo out the generated UUID, cast it to a string
 
 ```php
 (string) Uuid::generate()
@@ -96,9 +103,9 @@ $uuid = Uuid::generate(4);
 dd($uuid->version);
 ```
 
-## Eloquent uuid generation
+## Eloquent UUID generation
 
-If you want an UUID magically be generated in your Laravel models, just add this boot function to your Model.
+If you want an UUID magically be generated in your Laravel models, just add this boot method to your Model.
 
 ```php
 /**
@@ -157,4 +164,4 @@ dd($validator->passes());
 
 ## Notes
 
-Full details on the UUID specification can be found [here](http://tools.ietf.org/html/rfc4122)
+Full details on the UUID specification can be found on [http://tools.ietf.org/html/rfc4122](http://tools.ietf.org/html/rfc4122).
