@@ -14,14 +14,15 @@ class CreateNewsTagTranslationTable extends Migration
     public function up()
     {
         Schema::create('news_tag_translation', function (Blueprint $table) {
-            $table->integer('tag_id')->unsigned();
+            $table->integer('news_tag_id')->unsigned();
             $table->string('locale')->index();
-            $table->string('name')->unique();
-            $table->string('slug');
+            $table->string('name')->nullable();
+            $table->string('slug')->nullable();
             $table->string('metaTitle')->nullable();
             $table->string('metaDescription')->nullable();
-            $table->unique(['tag_id','locale']);
-            $table->foreign('tag_id')->references('id')->on('news_tag')->onDelete('cascade');
+            $table->unique(['news_tag_id','locale']);
+            $table->timestamps();
+            $table->foreign('news_tag_id')->references('id')->on('news_tag')->onDelete('cascade');
         });
     }
 

@@ -13,8 +13,8 @@ jQuery(function ($) {
         },
         columns: [
             {data: 'id', name: 'id'},
-            {data: 'code', name: 'code', orderable: false},
-            {data: 'translations', name: 'translations.name', orderable: false},
+            {data: 'name', name: 'name', orderable: false},
+            {data: 'active', name: 'active', orderable: false},
             {data: 'action', name: 'action', orderable: false, searchable: false}
         ],
         language: {

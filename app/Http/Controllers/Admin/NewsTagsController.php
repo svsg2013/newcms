@@ -19,51 +19,58 @@ class NewsTagsController extends Controller
 
     public function index()
     {
-        Breadcrumb::title(trans('admin_news_category.title'));
+
+        Breadcrumb::title('Tags');
         return view('admin.news_tag.index');
+
     }
 
-    public function datatable(){
+    public function datatable()
+    {
+
         $data = $this->__tag->datatable();
-        dd($data);
+
         return DataTables::of($data)
-            ->addColumn(
-                'translations',
-                function ($data) {
-                    return $data->title;
-                }
-            )
             ->editColumn(
                 'active',
                 function ($data) {
-                    return $data->active ? '<span class="label label-success">'.$data->label_active.'</span>' : '<span class="label label-warning">'.$data->label_active.'</span>';
+                    return $data->active == 1 ? '<span class="label label-success">' . $data->label_active . '</span>' : '<span class="label label-warning">' . $data->label_active . '</span>';
                 }
             )
-            ->editColumn(
-                'is_top',
+            ->addColumn(
+                'action',
                 function ($data) {
-                    return $data->is_top ? '<i class="material-icons col-pink">check</i>' : '<i class="material-icons">more_horiz</i>';
+                    return view('admin.layouts.partials.table_button')->with(
+                        [
+                            'link_edit' => route('admin.news_tag.edit', $data->id),
+                            'link_delete' => route('admin.news_tag.destroy', $data->id),
+                            'id_delete' => $data->id
+                        ]
+                    )->render();
                 }
             )
-            ->editColumn(
-                'publish_at',
-                function ($data) {
-                    return $data->publish_at_format;
-                }
-            )
-//            ->addColumn(
-//                'action',
-//                function ($data) {
-//                    return view('admin.layouts.partials.table_button')->with(
-//                        [
-//                            'link_edit' => route('admin.news.edit', $data->id),
-//                            'link_delete' => route('admin.news.destroy', $data->id),
-//                            'id_delete' => $data->id
-//                        ]
-//                    )->render();
-//                }
-//            )
             ->escapeColumns([])
             ->make(true);
+    }
+
+    public function create()
+    {
+        Breadcrumb::title('Create Tag');
+        return view('admin.news_tag.create_edit', compact('news_tags'));
+    }
+
+    public function store(Request $request)
+    {
+        $input = $request->all();
+        $this->__tag->createTag($input);
+        session()->flash('success', trans('admin_message.created_successful', ['attr' => trans('admin_news_category.news_category')]));
+        return redirect()->route('admin.news_tag.index');
+    }
+
+    public function edit($id)
+    {
+        Breadcrumb::title('Edit Tag');
+        $news_tags = $this->__tag->find($id);
+        return view('admin.news_tag.create_edit', compact('news_tags'));
     }
 }

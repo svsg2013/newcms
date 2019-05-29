@@ -1,11 +1,7 @@
 @extends("admin.layouts.master")
-
 @section("meta")
-
 @endsection
-
 @section("style")
-
 @endsection
 
 @section("content")
@@ -13,63 +9,30 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="card">
                 <div class="body">
-
                 @include("admin.layouts.partials.message")
 
                 @component('admin.layouts.components.form', [
-                'form_method' =>  empty($news_category) ? 'POST' : 'PUT',
-                'form_url' => empty($news_category) ? route("admin.news_category.store") : route("admin.news_category.update", $news_category->id)
+                'form_method' =>  empty($news_tags) ? 'POST' : 'PUT',
+                'form_url' => empty($news_tags) ? route('admin.news_tag.store') : route('admin.news_tag.update', $news_tags->id)
                 ])
-                        <div class="row">
-                            <!-- <div class="col-sm-4">
-                                <div class="form-group form-float">
-                                    <div class="font-bold col-green">{{ trans('admin_news_category.form.code') }}</div>
-                                    <div class="form-line focused">
-                                        <input type="text" id="code" class="form-control" name="code" value="{{ $news_category->code ?? '' }}">
-                                    </div>
-                                </div>
-                            </div> -->
-                            <div class="col-sm-4">
-                                <div class="form-group form-float">
-                                    <div class="font-bold col-green">{{ trans('admin_news_category.form.pages') }}</div>
-                                    <div class="form-line focused">
-                                        <select id="code" class="form-control" name="code">
-                                            @foreach($news_page_type as $key => $value)
-                                                <option {{ (!empty($news_category) && ($news_category->code == $key)) ? "selected" : "" }} value="{{ $key }}">{{ trans('admin_news_category.form.news_page_type.'.$key)  }}</option>
-                                            @endforeach
-                                          
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-4 parentBox">
-                                <div class="form-group form-float">
-                                    <div class="font-bold col-green">{{ trans('admin_news_category.form.parent') }}</div>
-                                    <div class="form-line focused">
-                                        <select class="form-control" name="parent_id">
-                                                <option value="">{{ trans('admin_news_category.form.not_parent') }}</option>
-                                            @foreach($parent_news_categories as $parent_news_category)
-                                                <option {{ (!empty($news_category) && ($news_category->parent_id == $parent_news_category->id)) ? "selected" : "" }} value="{{ $parent_news_category->id }}">{{ $parent_news_category->name }}</option>
-                                            @endforeach
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    <!-- Nav tabs -->
+                     <!-- Nav tabs -->
                         @include('admin.translation.nav_tab', [
-                            'object_trans' => $news_category ?? null,
+                            'object_trans' => $news_tags ?? null,
                             'default_tab' => $composer_locale,
                             'form_fields' => [
-                                ['type' => 'text', 'name' => 'name']
+                                ['type' => 'text', 'name' => 'name'],
+                                ['type' => 'text', 'name' => 'meta'],
+                                ['type' => 'text', 'name' => 'des']
                             ],
-                            'translation_file' => 'admin_news_category'
+                            'translation_file' => 'admin_tags'
                         ])
-
+                         <div class="form-group">
+                             <input type="checkbox" name="active" value="1" id="active" checked>
+                             <label for="active">Active</label>
+                         </div>
                         {{--Buttons--}}
                         @include("admin.layouts.partials.form_buttons", [
-                            "cancel" => route("admin.news_category.index")
+                            "cancel" => route("admin.news_tag.index")
                         ])
                     @endcomponent
 
@@ -78,7 +41,6 @@
         </div>
     </div>
 
-    
 @endsection
 
 @section("script")
@@ -97,7 +59,6 @@
     @endphp
 
     <script>
-
         $('#code').change(function(){
             var code = $(this).val();
             var single_menu = JSON.parse('{!! $single_menu !!}');
@@ -113,9 +74,6 @@
             }else{
                 $('.parentBox').removeClass('hidden')
             }
-            
-        
-        })
-    
-    </script>
+                })
+        </script>
 @endsection

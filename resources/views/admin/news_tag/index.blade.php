@@ -32,8 +32,8 @@
                     <thead>
                     <tr>
                         <th width="40">{!! trans("admin_news_category.table.id") !!}</th>
-                        <th>{{ trans('admin_news_category.form.pages') }}</th>
                         <th>{!! trans("admin_news_category.table.name") !!}</th>
+                        <th>Active</th>
                         <th width="150">{!! trans("admin_news_category.table.action") !!}</th>
                     </tr>
                     </thead>

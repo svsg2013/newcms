@@ -6,7 +6,6 @@ use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
 use App\Repositories\NewsTagRepository;
 use App\Models\NewsTag;
-use App\Models\NewsTagTranslation;
 
 /**
  * Class NewsRepositoryEloquent
@@ -26,8 +25,21 @@ class NewsTagRepositoryEloquent extends BaseRepository implements NewsTagReposit
         return NewsTag::class;
     }
 
+    public function boot()
+    {
+        $this->pushCriteria(app(RequestCriteria::class));
+    }
+
     public function datatable()
     {
-        return $this->model()->select('*')->withTranslation();
+        return $this->model->select('*')->withTranslation();
     }
+
+    public function createTag(array $input)
+    {
+        $create = $this->model->create($input);
+        $create->updateSlugTranslation();
+        return $create;
+    }
+
 }

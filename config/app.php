@@ -182,7 +182,6 @@ return [
         //
         Prettus\Repository\Providers\RepositoryServiceProvider::class,
         Ultraware\Roles\RolesServiceProvider::class,
-        Spatie\Geocoder\GeocoderServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
     ],
 
@@ -242,7 +241,6 @@ return [
         // Model
         'System' => App\Models\System::class,
         'Slider' => App\Models\Slider::class,
-        'Geocoder' => Spatie\Geocoder\Facades\Geocoder::class,
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
     ],
 

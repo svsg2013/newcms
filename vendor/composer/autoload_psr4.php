@@ -35,7 +35,6 @@ return array(
     'Symfony\\Component\\CssSelector\\' => array($vendorDir . '/symfony/css-selector'),
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
     'SuperClosure\\' => array($vendorDir . '/jeremeamia/SuperClosure/src'),
-    'Spatie\\Geocoder\\' => array($vendorDir . '/spatie/geocoder/src'),
     'RenatoMarinho\\LaravelPageSpeed\\' => array($vendorDir . '/renatomarinho/laravel-page-speed/src'),
     'Ramsey\\Uuid\\' => array($vendorDir . '/ramsey/uuid/src'),
     'Psy\\' => array($vendorDir . '/psy/psysh/src'),
