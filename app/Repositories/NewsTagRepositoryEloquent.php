@@ -37,6 +37,7 @@ class NewsTagRepositoryEloquent extends BaseRepository implements NewsTagReposit
 
     public function createTag(array $input)
     {
+
         $create = $this->model->create($input);
         $create->updateSlugTranslation();
         return $create;

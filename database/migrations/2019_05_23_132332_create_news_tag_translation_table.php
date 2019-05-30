@@ -14,6 +14,7 @@ class CreateNewsTagTranslationTable extends Migration
     public function up()
     {
         Schema::create('news_tag_translation', function (Blueprint $table) {
+            $table->increments('id');
             $table->integer('news_tag_id')->unsigned();
             $table->string('locale')->index();
             $table->string('name')->nullable();

@@ -18,7 +18,6 @@ trait SlugTranslationTrait
                 break;
             }
         }
-
         foreach ($translations as $translation) {
             if(!$translation->{$slug_from_source}){
                 $translation->slug = null;
