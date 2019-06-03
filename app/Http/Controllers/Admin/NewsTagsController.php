@@ -73,4 +73,18 @@ class NewsTagsController extends Controller
         $news_tags = $this->__tag->find($id);
         return view('admin.news_tag.create_edit', compact('news_tags'));
     }
+
+    public function update(Request $request, $id)
+    {
+        $input = $request->all();
+        $this->__tag->update($input, $id);
+        session()->flash('success', trans('admin_message.updated_successful', ['attr' => trans('admin_news.news')]));
+        return redirect()->route('admin.news_tag.index');
+    }
+
+    public function destroy($id){
+        $this->__tag->delete($id);
+        session()->flash('success', trans('admin_message.deleted_successful', ['attr' => trans('admin_news_category.news_category')]));
+        return redirect()->back();
+    }
 }
