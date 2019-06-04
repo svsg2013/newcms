@@ -5,7 +5,7 @@ return [
     'inactive' => 'InActive',
     'form' =>[
         'name' => 'Name',
-        'meta' => 'Meta Title',
-        'des' => 'Description'
+        'metaTitle' => 'Meta Title',
+        'metaDescription' => 'Description'
     ]
 ];

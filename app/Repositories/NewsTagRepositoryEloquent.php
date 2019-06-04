@@ -35,11 +35,20 @@ class NewsTagRepositoryEloquent extends BaseRepository implements NewsTagReposit
         return $this->model->select('*')->withTranslation();
     }
 
-    public function createTag(array $input)
+    public function create(array $input)
     {
+        $input['active'] = empty($input['active']) ? 0 : 1;
         $create = $this->model->create($input);
         $create->updateSlugTranslation();
         return $create;
+    }
+
+    public function update(array $input, $id)
+    {
+        $input['active'] = empty($input['active']) ? 0 : 1;
+        $model = $this->model->find($id);
+        $model->update($input);
+        return $model;
     }
 
 }

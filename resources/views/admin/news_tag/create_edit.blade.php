@@ -21,13 +21,17 @@
                             'default_tab' => $composer_locale,
                             'form_fields' => [
                                 ['type' => 'text', 'name' => 'name'],
-                                ['type' => 'text', 'name' => 'meta'],
-                                ['type' => 'text', 'name' => 'des']
+                                ['type' => 'text', 'name' => 'metaTitle'],
+                                ['type' => 'text', 'name' => 'metaDescription']
                             ],
                             'translation_file' => 'admin_tags'
                         ])
                          <div class="form-group">
-                             <input type="checkbox" name="active" value="1" id="active" checked>
+                             <input type="checkbox" name="active" value="1" id="active"
+                             @if (isset($news_tags) && $news_tags->active == 1)
+                                 {{'checked'}}
+                             @endif
+                             >
                              <label for="active">Active</label>
                          </div>
                         {{--Buttons--}}

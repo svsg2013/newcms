@@ -46,10 +46,7 @@
 
 @section('script')
     <script type="text/javascript" src="/assets/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
-
     <script src="/assets/plugins/jquery-validation/jquery.validate.js"></script>
-
     <script src="/assets/plugins/jquery-validation/localization/messages_vi.js"></script>
-
     <script type="text/javascript" src="/assets/admin/js/pages/popup.create.js"></script>
 @endsection

@@ -62,7 +62,7 @@ class NewsTagsController extends Controller
     public function store(Request $request)
     {
         $input = $request->all();
-        $this->__tag->createTag($input);
+        $this->__tag->create($input);
         session()->flash('success', trans('admin_message.created_successful', ['attr' => trans('admin_news_category.news_category')]));
         return redirect()->route('admin.news_tag.index');
     }

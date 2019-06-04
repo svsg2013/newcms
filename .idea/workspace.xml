@@ -2,428 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82b66f05-b290-46db-8aba-30c754c7a1ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/newcms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/newcms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/NewsTagsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/NewsTagsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/NewsTagRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/NewsTagRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Repositories/NewsTagRepositoryEloquent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/NewsTagRepositoryEloquent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Carbon.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Carbon.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/CarbonInterval.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/CarbonInterval.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/CarbonPeriod.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/CarbonPeriod.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/af.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/af.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar_Shakl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar_Shakl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/az.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/az.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bg.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bg.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bn.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bs_BA.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bs_BA.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ca.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ca.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/cs.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/cs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/cy.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/cy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/da.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/da.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/de.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/de.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/dv_MV.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/dv_MV.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/el.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/el.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/en.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/en.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/eo.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/eo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/es.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/es.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/et.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/et.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/eu.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/eu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fa.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fi.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fo.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fr.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/gl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/gl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/gu.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/gu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/he.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/he.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hi.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hr.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hu.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hy.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/id.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/id.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/is.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/is.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/it.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/it.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ja.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ja.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ka.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ka.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/kk.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/kk.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/km.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/km.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ko.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ko.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/lt.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/lt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/lv.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/lv.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/mk.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/mk.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/mn.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/mn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ms.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ms.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/my.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/my.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ne.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ne.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/nl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/nl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/no.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/no.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/oc.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/oc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ps.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ps.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pt.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pt_BR.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pt_BR.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ro.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ro.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ru.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ru.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sh.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sk.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sk.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sq.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sq.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr_Cyrl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr_Cyrl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr_Cyrl_ME.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr_Cyrl_ME.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr_Latn_ME.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr_Latn_ME.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr_ME.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr_ME.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sv.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sv.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sw.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sw.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/th.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/th.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tr.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/uk.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/uk.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ur.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ur.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/uz.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/uz.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/vi.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/vi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/zh_TW.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/zh_TW.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Translator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Translator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/JsonSerializable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/JsonSerializable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Cache/CacheInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Cache/CacheTrait.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Cache/CallbackInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Cache/ItemInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Cache/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Cache/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Cache/TagAwareCacheInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Cache/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/EventDispatcher/Event.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/EventDispatcher/EventDispatcherInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/EventDispatcher/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/EventDispatcher/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/EventDispatcher/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/HttpClient/ChunkInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/HttpClient/Exception/ClientExceptionInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/HttpClient/Exception/ExceptionInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/HttpClient/Exception/HttpExceptionInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/HttpClient/Exception/RedirectionExceptionInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/HttpClient/Exception/ServerExceptionInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/HttpClient/Exception/TransportExceptionInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/HttpClient/HttpClientInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/HttpClient/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/HttpClient/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/HttpClient/ResponseInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/HttpClient/ResponseStreamInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/HttpClient/Test/Fixtures/web/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/HttpClient/Test/HttpClientTestCase.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/HttpClient/Test/TestHttpServer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/HttpClient/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Service/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Service/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Service/ResetInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Service/ServiceLocatorTrait.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Service/ServiceProviderInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Service/ServiceSubscriberInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Service/ServiceSubscriberTrait.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Service/Test/ServiceLocatorTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Service/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Tests/Cache/CacheTraitTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Tests/Service/ServiceSubscriberTraitTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Translation/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Translation/LocaleAwareInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Translation/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Translation/Test/TranslatorTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Translation/TranslatorInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Translation/TranslatorTrait.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/Translation/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/contracts/phpunit.xml.dist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/CssSelectorConverter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/CssSelectorConverter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Exception/ExceptionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Exception/ExceptionInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Exception/ExpressionErrorException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Exception/ExpressionErrorException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Exception/InternalErrorException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Exception/InternalErrorException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Exception/ParseException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Exception/ParseException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Exception/SyntaxErrorException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Exception/SyntaxErrorException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/AbstractNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/AbstractNode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/AttributeNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/AttributeNode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/ClassNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/ClassNode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/CombinedSelectorNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/CombinedSelectorNode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/ElementNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/ElementNode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/FunctionNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/FunctionNode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/HashNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/HashNode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/NegationNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/NegationNode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/NodeInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/NodeInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/PseudoNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/PseudoNode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/SelectorNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/SelectorNode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/Specificity.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/Specificity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/CommentHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/CommentHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/HandlerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/HandlerInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/HashHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/HashHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/IdentifierHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/IdentifierHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/NumberHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/NumberHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/StringHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/StringHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/WhitespaceHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/WhitespaceHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Parser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/ParserInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/ParserInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Reader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Reader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Shortcut/ClassParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Shortcut/ClassParser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Shortcut/ElementParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Shortcut/ElementParser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Shortcut/EmptyStringParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Shortcut/EmptyStringParser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Shortcut/HashParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Shortcut/HashParser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Token.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Token.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/TokenStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/TokenStream.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Tokenizer/Tokenizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Tokenizer/Tokenizer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Tokenizer/TokenizerEscaping.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Tokenizer/TokenizerEscaping.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Tokenizer/TokenizerPatterns.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Tokenizer/TokenizerPatterns.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/CssSelectorConverterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/CssSelectorConverterTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/AbstractNodeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/AbstractNodeTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/AttributeNodeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/AttributeNodeTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/ClassNodeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/ClassNodeTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/CombinedSelectorNodeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/CombinedSelectorNodeTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/ElementNodeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/ElementNodeTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/FunctionNodeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/FunctionNodeTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/HashNodeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/HashNodeTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/NegationNodeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/NegationNodeTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/PseudoNodeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/PseudoNodeTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/SelectorNodeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/SelectorNodeTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/SpecificityTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Node/SpecificityTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/AbstractHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/AbstractHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/CommentHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/CommentHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/HashHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/HashHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/IdentifierHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/IdentifierHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/NumberHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/NumberHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/StringHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/StringHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/WhitespaceHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Handler/WhitespaceHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/ParserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/ParserTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/ReaderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/ReaderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Shortcut/ClassParserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Shortcut/ClassParserTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Shortcut/ElementParserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Shortcut/ElementParserTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Shortcut/EmptyStringParserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Shortcut/EmptyStringParserTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Shortcut/HashParserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/Shortcut/HashParserTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/TokenStreamTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/Parser/TokenStreamTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/XPath/Fixtures/ids.html" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/XPath/Fixtures/ids.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/XPath/Fixtures/lang.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/XPath/Fixtures/lang.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/XPath/Fixtures/shakespear.html" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/XPath/Fixtures/shakespear.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/XPath/TranslatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Tests/XPath/TranslatorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/AbstractExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/AbstractExtension.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/AttributeMatchingExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/AttributeMatchingExtension.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/CombinationExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/CombinationExtension.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/ExtensionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/ExtensionInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/FunctionExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/FunctionExtension.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/HtmlExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/HtmlExtension.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/NodeExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/NodeExtension.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/PseudoClassExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/PseudoClassExtension.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Translator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Translator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/TranslatorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/TranslatorInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/XPathExpr.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/XPathExpr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/phpunit.xml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcherInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcherInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/WrappedListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/WrappedListener.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/DependencyInjection/RegisterListenersPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/DependencyInjection/RegisterListenersPass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Event.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Event.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcherInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcherInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventSubscriberInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventSubscriberInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/GenericEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/GenericEvent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/ImmutableEventDispatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/ImmutableEventDispatcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/AbstractEventDispatcherTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/Debug/TraceableEventDispatcherTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/Debug/TraceableEventDispatcherTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/Debug/WrappedListenerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/Debug/WrappedListenerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/DependencyInjection/RegisterListenersPassTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/DependencyInjection/RegisterListenersPassTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/EventDispatcherTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/EventDispatcherTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/EventTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/EventTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/GenericEventTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/GenericEventTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/ImmutableEventDispatcherTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/ImmutableEventDispatcherTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/phpunit.xml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Catalogue/AbstractOperation.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Catalogue/AbstractOperation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Catalogue/MergeOperation.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Catalogue/MergeOperation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Catalogue/OperationInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Catalogue/OperationInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Catalogue/TargetOperation.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Catalogue/TargetOperation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Command/XliffLintCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Command/XliffLintCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/DataCollector/TranslationDataCollector.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/DataCollector/TranslationDataCollector.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/DataCollectorTranslator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/DataCollectorTranslator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/DependencyInjection/TranslationDumperPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/DependencyInjection/TranslationDumperPass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/DependencyInjection/TranslationExtractorPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/DependencyInjection/TranslationExtractorPass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/DependencyInjection/TranslatorPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/DependencyInjection/TranslatorPass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/CsvFileDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/CsvFileDumper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/DumperInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/DumperInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/FileDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/FileDumper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/IcuResFileDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/IcuResFileDumper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/IniFileDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/IniFileDumper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/JsonFileDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/JsonFileDumper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/MoFileDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/MoFileDumper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/PhpFileDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/PhpFileDumper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/PoFileDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/PoFileDumper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/QtFileDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/QtFileDumper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/XliffFileDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/XliffFileDumper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/YamlFileDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/YamlFileDumper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Exception/ExceptionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Exception/ExceptionInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Exception/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Exception/InvalidArgumentException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Exception/InvalidResourceException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Exception/InvalidResourceException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Exception/LogicException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Exception/LogicException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Exception/NotFoundResourceException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Exception/NotFoundResourceException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Exception/RuntimeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Exception/RuntimeException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Extractor/AbstractFileExtractor.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Extractor/AbstractFileExtractor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Extractor/ChainExtractor.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Extractor/ChainExtractor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Extractor/ExtractorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Extractor/ExtractorInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Extractor/PhpExtractor.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Extractor/PhpExtractor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Extractor/PhpStringTokenParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Extractor/PhpStringTokenParser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Formatter/ChoiceMessageFormatterInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Formatter/ChoiceMessageFormatterInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Formatter/IntlFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Formatter/IntlFormatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Formatter/IntlFormatterInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Formatter/IntlFormatterInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Formatter/MessageFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Formatter/MessageFormatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Formatter/MessageFormatterInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Formatter/MessageFormatterInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/IdentityTranslator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/IdentityTranslator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Interval.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Interval.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/ArrayLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/ArrayLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/CsvFileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/CsvFileLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/FileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/FileLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/IcuDatFileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/IcuDatFileLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/IcuResFileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/IcuResFileLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/IniFileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/IniFileLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/JsonFileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/JsonFileLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/LoaderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/LoaderInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/MoFileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/MoFileLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/PhpFileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/PhpFileLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/PoFileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/PoFileLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/QtFileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/QtFileLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/XliffFileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/XliffFileLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/YamlFileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/YamlFileLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/LoggingTranslator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/LoggingTranslator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/MessageCatalogue.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/MessageCatalogue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/MessageCatalogueInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/MessageCatalogueInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/MessageSelector.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/MessageSelector.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/MetadataAwareInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/MetadataAwareInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/PluralizationRules.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/PluralizationRules.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Reader/TranslationReader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Reader/TranslationReader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Reader/TranslationReaderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Reader/TranslationReaderInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Resources/bin/translation-status.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Resources/bin/translation-status.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Resources/data/parents.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Resources/data/parents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Resources/schemas/xliff-core-1.2-strict.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Resources/schemas/xliff-core-1.2-strict.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Resources/schemas/xliff-core-2.0.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Resources/schemas/xliff-core-2.0.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Resources/schemas/xml.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Resources/schemas/xml.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Catalogue/AbstractOperationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Catalogue/AbstractOperationTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Catalogue/MergeOperationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Catalogue/MergeOperationTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Catalogue/TargetOperationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Catalogue/TargetOperationTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Command/XliffLintCommandTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Command/XliffLintCommandTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/DataCollector/TranslationDataCollectorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/DataCollector/TranslationDataCollectorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/DataCollectorTranslatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/DataCollectorTranslatorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/DependencyInjection/TranslationDumperPassTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/DependencyInjection/TranslationDumperPassTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/DependencyInjection/TranslationExtractorPassTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/DependencyInjection/TranslationExtractorPassTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/DependencyInjection/TranslationPassTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/DependencyInjection/TranslationPassTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/CsvFileDumperTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/CsvFileDumperTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/FileDumperTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/FileDumperTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/IcuResFileDumperTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/IcuResFileDumperTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/IniFileDumperTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/IniFileDumperTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/JsonFileDumperTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/JsonFileDumperTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/MoFileDumperTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/MoFileDumperTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/PhpFileDumperTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/PhpFileDumperTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/PoFileDumperTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/PoFileDumperTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/QtFileDumperTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/QtFileDumperTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/XliffFileDumperTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/XliffFileDumperTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/YamlFileDumperTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/YamlFileDumperTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Extractor/PhpExtractorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Extractor/PhpExtractorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Formatter/IntlFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Formatter/IntlFormatterTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Formatter/MessageFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Formatter/MessageFormatterTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/IdentityTranslatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/IdentityTranslatorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/IntervalTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/IntervalTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/CsvFileLoaderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/CsvFileLoaderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/IcuDatFileLoaderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/IcuDatFileLoaderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/IcuResFileLoaderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/IcuResFileLoaderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/IniFileLoaderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/IniFileLoaderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/JsonFileLoaderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/JsonFileLoaderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/LocalizedTestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/LocalizedTestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/MoFileLoaderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/MoFileLoaderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/PhpFileLoaderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/PhpFileLoaderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/PoFileLoaderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/PoFileLoaderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/QtFileLoaderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/QtFileLoaderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/XliffFileLoaderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/XliffFileLoaderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/YamlFileLoaderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/YamlFileLoaderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/LoggingTranslatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/LoggingTranslatorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/MessageCatalogueTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/MessageCatalogueTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/MessageSelectorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/MessageSelectorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/PluralizationRulesTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/PluralizationRulesTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/TranslatorCacheTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/TranslatorCacheTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/TranslatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/TranslatorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Util/ArrayConverterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Util/ArrayConverterTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Writer/TranslationWriterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Writer/TranslationWriterTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/empty-translation.po" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/empty-translation.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/encoding.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/encoding.xlf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/escaped-id-plurals.po" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/escaped-id-plurals.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/escaped-id.po" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/escaped-id.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/extractor/translation.html.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/extractor/translation.html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/fuzzy-translations.po" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/fuzzy-translations.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/invalid-xml-resources.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/invalid-xml-resources.xlf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/malformed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/malformed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/messages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/messages.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/messages_linear.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/messages_linear.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/non-valid.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/non-valid.xlf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/non-valid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/non-valid.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/plurals.po" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/plurals.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resname.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resname.xlf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resourcebundle/dat/en.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resourcebundle/dat/en.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resourcebundle/dat/fr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resourcebundle/dat/fr.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resourcebundle/dat/packagelist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resourcebundle/dat/packagelist.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-2.0+intl-icu.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-2.0+intl-icu.xlf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-2.0-clean.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-2.0-clean.xlf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-2.0-multi-segment-unit.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-2.0-multi-segment-unit.xlf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-2.0.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-2.0.xlf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-clean.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-clean.xlf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-notes-meta.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-notes-meta.xlf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-target-attributes.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-target-attributes.xlf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-tool-info.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-tool-info.xlf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.csv" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.ini" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.po" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.xlf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/valid.csv" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/valid.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/with-attributes.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/with-attributes.xlf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/withdoctype.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/withdoctype.xlf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/withnote.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/withnote.xlf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Translator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Translator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/TranslatorBagInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/TranslatorBagInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/TranslatorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/TranslatorInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Util/ArrayConverter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Util/ArrayConverter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Util/XliffUtils.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Util/XliffUtils.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Writer/TranslationWriter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Writer/TranslationWriter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Writer/TranslationWriterInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Writer/TranslationWriterInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/admin_tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/admin_tags.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/news_tag/create_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/news_tag/create_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/popup/create_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/popup/create_edit.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -436,11 +21,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Repositories/NewsTagRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/NewsTagsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="64" column="28" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+              <folding>
+                <element signature="e#46#72#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/PopupController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="115" column="49" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Repositories/PopupRepositoryEloquent.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-94" />
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Repositories/NewsTagRepositoryEloquent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="552">
+              <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
               <folding>
                 <element signature="e#36#83#0#PHP" expanded="true" />
               </folding>
@@ -449,31 +71,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/NewsCategoryController.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/popup/create_edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="161" selection-start-line="161" selection-end-line="163" selection-end-column="34" />
+            <state relative-caret-position="725">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Repositories/NewsCategoryRepositoryEloquent.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/news_tag/create_edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="50" column="37" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="37" />
+            <state relative-caret-position="510">
+              <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/NewsTagsController.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/popup/partials/general.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="69" lean-forward="true" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-              <folding>
-                <element signature="e#46#72#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="578">
+              <caret line="34" column="88" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="88" />
             </state>
           </provider>
         </entry>
@@ -484,7 +103,11 @@
     <findStrings>
       <find>news</find>
       <find>Tag</find>
+      <find>nav_tab</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\newcms</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -494,13 +117,17 @@
       <list>
         <option value="$PROJECT_DIR$/app/Models/NewsTagTranslate.php" />
         <option value="$PROJECT_DIR$/app/Models/NewsTag.php" />
-        <option value="$PROJECT_DIR$/app/Repositories/NewsTagRepository.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Providers/RepositoryServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/NewsController.php" />
-        <option value="$PROJECT_DIR$/app/Repositories/NewsTagRepositoryEloquent.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/NewsCategoryController.php" />
+        <option value="$PROJECT_DIR$/resources/lang/en/admin_tags.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/PopupController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/popup/create_edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/news_tag/create_edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/NewsTagsController.php" />
+        <option value="$PROJECT_DIR$/app/Repositories/NewsTagRepositoryEloquent.php" />
+        <option value="$PROJECT_DIR$/app/Repositories/NewsTagRepository.php" />
       </list>
     </option>
   </component>
@@ -660,16 +287,45 @@
             <path>
               <item name="newcms" type="b2602c69:ProjectViewProjectNode" />
               <item name="newcms" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newcms" type="b2602c69:ProjectViewProjectNode" />
               <item name="newcms" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newcms" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newcms" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="popup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newcms" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="popup" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newcms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newcms" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="translation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newcms" type="b2602c69:ProjectViewProjectNode" />
@@ -715,18 +371,19 @@
       <option name="presentableId" value="Default" />
       <updated>1559054065124</updated>
       <workItem from="1559054066515" duration="3988000" />
-      <workItem from="1559573641879" duration="1789000" />
+      <workItem from="1559573641879" duration="2091000" />
+      <workItem from="1559655892818" duration="4190000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5777000" />
+    <option name="totallyTimeSpent" value="10269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-319" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2531983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25586355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -818,16 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/NewsTagRepositoryEloquent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#36#83#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/NewsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1317">
@@ -852,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/NewsTagRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/NewsCategory.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -880,10 +520,25 @@
     <entry file="file://$PROJECT_DIR$/app/Models/NewsCategoryTranslation.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/NewsCategoryRepositoryEloquent.php">
+    <entry file="file://$PROJECT_DIR$/resources/lang/vi/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="50" column="37" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="37" />
+        <state relative-caret-position="-451" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/vi/validation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/translation/nav_tab.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/en/admin_tags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -894,13 +549,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/NewsCategoryRepositoryEloquent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/PopupRepository.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/popup/partials/general.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="88" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/news_tag/create_edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/popup/create_edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/NewsTagsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="69" lean-forward="true" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+        <state relative-caret-position="331">
+          <caret line="64" column="28" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
           <folding>
             <element signature="e#46#72#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/PopupController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="115" column="49" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/PopupRepositoryEloquent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/NewsTagRepositoryEloquent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
+          <folding>
+            <element signature="e#36#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/NewsTagRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
