@@ -28,7 +28,9 @@
                         ])
                          <div class="form-group">
                              <input type="checkbox" name="active" value="1" id="active"
-                             @if (isset($news_tags) && $news_tags->active == 1)
+                             @if (empty($news_tags))
+                                 {{'checked'}}
+                                 @elseif (isset($news_tags) && $news_tags->active == 1)
                                  {{'checked'}}
                              @endif
                              >

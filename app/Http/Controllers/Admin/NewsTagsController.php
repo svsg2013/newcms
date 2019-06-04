@@ -56,7 +56,7 @@ class NewsTagsController extends Controller
     public function create()
     {
         Breadcrumb::title('Create Tag');
-        return view('admin.news_tag.create_edit', compact('news_tags'));
+        return view('admin.news_tag.create_edit');
     }
 
     public function store(Request $request)
