@@ -25,7 +25,6 @@
             </div>
         </div>
     </div>
-
     <div class="col-md-4">
         <div class="font-bold col-green">{!! trans("admin_news.form.publish_at") !!}</div>
         <div class="form-group form-float">
@@ -37,13 +36,14 @@
             </div>
         </div>
     </div>
-
     <div class="col-md-12">
         <div class="font-bold col-green">{!! trans("admin_news.form.tag") !!}</div>
         <div class="form-group" style="border: 1px solid #f4f4f4;padding:5px;margin: 2px">
-            <input type="checkbox" id="active" name="active"
-                   value="1" {!! !empty($news) && $news->active ? "checked" : null !!}>
-            <label for="active">{!! trans("admin_news.form.tag") !!}</label>
+            @foreach($tags as $tag)
+                <input type="checkbox" id="tags[{{$tag->id}}]" name="tags[{{$tag->id}}]"
+                       value="1">
+                <label for="tags[{{$tag->id}}]">{{$tag->name}}</label>
+            @endforeach
         </div>
 
     </div>

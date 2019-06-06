@@ -4,7 +4,7 @@ return [
     'sign_out' => 'Sign Out',
     'profile' => 'Profile',
     'dashboard' => 'Dashboard',
-    'news' => 'News Promitions',
+    'news' => 'Tin Tức ',
     'news_list' => 'News list',
     'news_create' => 'Create news',
 

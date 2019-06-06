@@ -12,4 +12,5 @@ use Prettus\Repository\Contracts\RepositoryInterface;
 interface NewsTagRepository extends RepositoryInterface
 {
     public function datatable();
+    public function getListTags();
 }

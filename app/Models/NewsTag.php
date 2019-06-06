@@ -29,4 +29,8 @@ class NewsTag extends Model implements Transformable
         return $this->active ? trans('admin_tags.active') : trans('admin_tags.inactive');
     }
 
+    public function tagToNews(){
+        return $this->hasMany(NewsAndTag::class,'news_tag_id');
+    }
+
 }

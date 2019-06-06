@@ -79,4 +79,8 @@ class News extends Model implements Transformable
             'slug' => $this->slug
         ]);
     }
+
+    public function newsToTag(){
+        return $this->hasMany(NewsAndTag::class,'news_id');
+    }
 }

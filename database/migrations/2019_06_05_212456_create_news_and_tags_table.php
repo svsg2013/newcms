@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateNewsTranslationTable extends Migration
+class CreateNewsAndTagsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,16 +13,13 @@ class CreateNewsTranslationTable extends Migration
      */
     public function up()
     {
-        Schema::create('news_translation', function (Blueprint $table) {
+        Schema::create('news_and_tags', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('news_id')->unsigned();
-            $table->string('locale')->index();
-            $table->string('title')->nullable();
-            $table->string('slug')->nullable();
-            $table->string('description', 1024)->nullable();
-            $table->longText('content')->nullable();
-            $table->unique(['news_id','locale']);
+            $table->integer('news_tag_id')->unsigned();
             $table->foreign('news_id')->references('id')->on('news')->onDelete('cascade');
+            $table->foreign('news_tag_id')->references('id')->on('news_tag')->onDelete('cascade');
+            $table->timestamps();
         });
     }
 
@@ -33,6 +30,6 @@ class CreateNewsTranslationTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('news_translation');
+        Schema::dropIfExists('news_and_tags');
     }
 }

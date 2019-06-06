@@ -6,6 +6,7 @@ use App\Helper\Breadcrumb;
 use App\Models\News;
 use App\Repositories\NewsCategoryRepository;
 use App\Repositories\NewsRepository;
+use App\Repositories\NewsTagRepository;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Yajra\DataTables\Facades\DataTables;
@@ -14,11 +15,13 @@ class NewsController extends Controller
 {
     protected $news;
     protected $news_category;
+    protected $__newstag;
 
-    public function __construct(NewsRepository $news, NewsCategoryRepository $news_category)
+    public function __construct(NewsRepository $news, NewsCategoryRepository $news_category,NewsTagRepository $newsTagRepository)
     {
         $this->news = $news;
         $this->news_category = $news_category;
+        $this->__newstag = $newsTagRepository;
     }
 
     /**
@@ -91,10 +94,9 @@ class NewsController extends Controller
     public function create()
     {
         Breadcrumb::title(trans('admin_news.create'));
-
         $categories = $this->news_category->getChildParent();
-
-        return view('admin.news.create_edit', compact('categories'));
+        $tags = $this->__newstag->getListTags();
+        return view('admin.news.create_edit', compact(['categories','tags']));
     }
 
     /**
@@ -134,14 +136,10 @@ class NewsController extends Controller
     public function edit($id)
     {
         Breadcrumb::title(trans('admin_news.edit'));
-
         $news = $this->news->find($id);
-
         $categories = $this->news_category->getChildParent();
-
         $metadata = $news->meta;
-
-        return view('admin.news.create_edit', compact('news', 'categories', 'metadata'));
+        return view('admin.news.create_edit', compact('news','categories', 'metadata'));
     }
 
     /**
@@ -154,11 +152,8 @@ class NewsController extends Controller
     public function update(Request $request, $id)
     {
         $input = $request->all();
-
         $this->news->update($input, $id);
-
         session()->flash('success', trans('admin_message.updated_successful', ['attr' => trans('admin_news.news')]));
-
         return redirect()->back();
     }
 
@@ -171,9 +166,7 @@ class NewsController extends Controller
     public function destroy($id)
     {
         $this->news->delete($id);
-
         session()->flash('success', trans('admin_message.deleted_successful', ['attr' => trans('admin_news.news')]));
-
         return redirect()->back();
     }
 }

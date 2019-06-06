@@ -51,4 +51,8 @@ class NewsTagRepositoryEloquent extends BaseRepository implements NewsTagReposit
         return $model;
     }
 
+    public function getListTags(){
+        return $this->model->select('*')->get();
+    }
+
 }
