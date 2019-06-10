@@ -40,8 +40,8 @@
         <div class="font-bold col-green">{!! trans("admin_news.form.tag") !!}</div>
         <div class="form-group" style="border: 1px solid #f4f4f4;padding:5px;margin: 2px">
             @foreach($tags as $tag)
-                <input type="checkbox" id="tags[{{$tag->id}}]" name="tags[{{$tag->id}}]"
-                       value="1">
+                <input type="checkbox" id="tags[{{$tag->id}}]" name="tags[]"
+                       value="{{$tag->id}}">
                 <label for="tags[{{$tag->id}}]">{{$tag->name}}</label>
             @endforeach
         </div>

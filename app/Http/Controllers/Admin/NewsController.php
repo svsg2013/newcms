@@ -108,11 +108,8 @@ class NewsController extends Controller
     public function store(Request $request)
     {
         $input = $request->all();
-
         $this->news->create($input);
-
         session()->flash('success', trans('admin_message.created_successful', ['attr' => trans('admin_news.news')]));
-
         return redirect()->route('admin.news.index');
     }
 
