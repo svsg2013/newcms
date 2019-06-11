@@ -81,6 +81,6 @@ class News extends Model implements Transformable
     }
 
     public function newsToTag(){
-        return $this->hasMany(NewsAndTag::class,'news_id');
+        return $this->belongsToMany(NewsAndTag::class,'news_and_tags','news_id','news_tag_id');
     }
 }

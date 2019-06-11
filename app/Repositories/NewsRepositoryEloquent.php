@@ -54,6 +54,8 @@ class NewsRepositoryEloquent extends BaseRepository implements NewsRepository
         $input['active'] = !empty($input['active']) ? 1 : 0;
         $input['is_top'] = !empty($input['is_top']) ? 1 : 0;
         $input['publish_at'] = !empty($input['publish_at']) ? cvDbTime($input['publish_at'], PHP_DATE, DB_DATE) : date("Y-m-d");
+        /*can su ly*/
+        $this->model->newsToTag()->sync($input['tags'] ?? []);
         $news = $this->model->create($input);
         if (!empty($input['metadata'])) {
             $news->metaCreateOrUpdate($input['metadata']);
@@ -69,7 +71,6 @@ class NewsRepositoryEloquent extends BaseRepository implements NewsRepository
         $input['active'] = !empty($input['active']) ? 1 : 0;
         $input['is_top'] = !empty($input['is_top']) ? 1 : 0;
         $input['publish_at'] = !empty($input['publish_at']) ? cvDbTime($input['publish_at'], PHP_DATE, DB_DATE) : date("Y-m-d");
-        $this->model->newsToTag()->sync($input['tags'] ?? []);
         $news->update($input);
 
         if (!empty($input['metadata'])) {
